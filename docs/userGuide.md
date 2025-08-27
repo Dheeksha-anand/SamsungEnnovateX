@@ -1,4 +1,4 @@
-# On-Device Fine-Tuning Framework for LLMs (Mobile)
+# 📱 On-Device Fine-Tuning Framework for LLMs (Mobile)
 
 ![App Screenshot](b4ea168c-e0b1-47d5-8df4-2dd2254d383c.png)
 
@@ -9,14 +9,14 @@ It is built around **TinyLLaMA (1.1B)** and optimized using **QLoRA adapters + l
 ---
 
 ## 🚀 Features
-- **On-Device Fine-Tuning** – No internet required, fully private.  
-- **Dynamic Personalization** – Fine-tune models with your own dataset.  
-- **Efficient Compression** – QLoRA + Ridge Regression + SVD = tiny adapters.  
-- **Mobile Ready** – Optimized with `llama.cpp` and `gguf`.  
-- **Low Footprint** – Adapters are only a few MBs, no retraining full model.  
-- **Cross-Platform** – Works in Termux (Android), adaptable to iOS.  
-- **Reversible Updates** – Reset to base model anytime.  
-- **User-Friendly** – Simple mobile interface for dataset input, fine-tune, and chat.  
+- 🔒 **On-Device Fine-Tuning** – No internet required, fully private.  
+- 🎯 **Dynamic Personalization** – Fine-tune models with your own dataset.  
+- ⚡ **Efficient Compression** – QLoRA + Ridge Regression + SVD = tiny adapters.  
+- 📲 **Mobile Ready** – Optimized with `llama.cpp` and `gguf`.  
+- 🪶 **Low Footprint** – Adapters are only a few MBs, no retraining full model.  
+- 🌍 **Cross-Platform** – Works in Termux (Android), adaptable to iOS.  
+- 🔄 **Reversible Updates** – Reset to base model anytime.  
+- 🖥️ **User-Friendly** – Simple mobile interface for dataset input, fine-tune, and chat.  
 
 ---
 
@@ -35,12 +35,12 @@ Open **Termux** and run:
 pkg update && pkg upgrade -y
 pkg install git wget cmake build-essential python -y
 
+### 2. Clone llama.cpp
 git clone https://github.com/ggerganov/llama.cpp
 cd llama.cpp
 make
 
+### Add Models
+
 cp /sdcard/Downloads/base_model.gguf ~/llama.cpp/
 cp /sdcard/Downloads/adapter.gguf ~/llama.cpp/
-
-./main -m base_model.gguf --lora adapter.gguf -p "Hello, how are you?"
-
