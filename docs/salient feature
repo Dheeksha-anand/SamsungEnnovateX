@@ -1,8 +1,3 @@
-
----
-
-## `07_features.md`
-```markdown
 # Salient Features
 
 - **On-Device Fine-Tuning** – no cloud, fully private.
@@ -13,4 +8,3 @@
 - **Cross-Platform** – runs in Termux on Android, portable to iOS with minimal changes.
 - **Reversible Updates** – can reset to base model anytime.
 - **User-Friendly App** – simple interface for dataset input, fine-tune, and chat.
-
