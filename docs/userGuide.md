@@ -35,7 +35,7 @@ Open **Termux** and run:
 pkg update && pkg upgrade -y
 pkg install git wget cmake build-essential python -y
 
-### 2. Clone llama.cpp
+###  Clone llama.cpp
 git clone https://github.com/ggerganov/llama.cpp
 cd llama.cpp
 make
