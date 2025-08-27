@@ -9,7 +9,7 @@
 6. **Mobile App Interface** (UI for personalization).
 
 ## Architecture Diagram
-![Architecture](../images/architecture.png)
+![Architecture](/images/architecture.png)
 
 ## Dataflow
 1. Input data (user-provided JSON).
