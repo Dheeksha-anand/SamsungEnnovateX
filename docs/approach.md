@@ -20,6 +20,4 @@ On-device fine-tuning of **billion+ parameter LLMs** using **private user data**
 5. Export → `.npy` → `.safetensor` → `gguf`.
 6. Final fine-tuned model runs **locally on mobile** with user’s private data.
 
-<p align="center">
-  <img src="docs/images/pipeline.png" alt="Pipeline Diagram" width="800"/>
-</p>
+![Pipeline Diagram](pipeline.png)
